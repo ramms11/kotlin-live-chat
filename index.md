@@ -37,6 +37,21 @@ Syntax highlighted code block
 ### 2. Add project dependencies
 gradle.build(Module: app)
 
+```markdown
+implementation fileTree(dir: 'libs', include: ['*.jar'])
+implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+implementation 'androidx.appcompat:appcompat:1.1.0'
+implementation 'androidx.core:core-ktx:1.2.0'
+implementation "androidx.constraintlayout:constraintlayout:2.0.0-beta4"
+
+// exoplayer module
+implementation 'com.google.android.exoplayer:exoplayer:2.11.4'
+
+// firebase module
+implementation 'com.google.firebase:firebase-core:17.5.0'
+implementation 'com.google.firebase:firebase-database:19.4.0'
+```
+
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
