@@ -8,7 +8,7 @@
 7. 
 8. 
 
-## 1 Create project
+### 1. Create project
 Start with new android studio project choosing Empty Activity.
 Give project and package name and select language Kotlin.
 Minimum SDK as API 19: Kitkat and finish
