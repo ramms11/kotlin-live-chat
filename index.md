@@ -1,8 +1,12 @@
-## Kotlin live chat Documentation
-
-You can use the [editor on GitHub](https://github.com/ramms11/kotlin-live-chat/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Outline
+1. Create project in Android Studio
+2. Add dependencies
+3. Add resources to show data in list
+4. 
+5. 
+6. 
+7. 
+8. 
 
 ### Markdown
 
