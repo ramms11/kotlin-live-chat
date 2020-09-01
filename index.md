@@ -8,9 +8,11 @@
 7. 
 8. 
 
-### Markdown
+## 1 Create project
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Start with new android studio project choosing Empty Activity.
+Give project and package name and select language Kotlin.
+Minimum SDK as API 19: Kitkat and finish
 
 ```markdown
 
