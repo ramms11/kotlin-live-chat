@@ -1,4 +1,5 @@
 ## Outline
+```markdown
 1.  Create project in Android Studio
 2.  Add dependencies
 3.  Add resources to show data in list
@@ -7,6 +8,7 @@
 6. 
 7. 
 8. 
+```
 
 ### 1. Create project
 Start with new android studio project choosing Empty Activity.
