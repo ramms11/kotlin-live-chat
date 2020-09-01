@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Kotlin live chat Documentation
 
 You can use the [editor on GitHub](https://github.com/ramms11/kotlin-live-chat/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
