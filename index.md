@@ -1,8 +1,8 @@
 ## Outline
 ```markdown
-1.  Create project in Android Studio
-2.  Add dependencies
-3.  Add resources to show data in list
+1. Create project in Android Studio
+2. Add dependencies
+3. Add resources to show data in list
 4. 
 5. 
 6. 
