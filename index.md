@@ -34,6 +34,9 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
+### 2. Add project dependencies
+gradle.build(Module: app)
+
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
