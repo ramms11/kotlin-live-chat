@@ -1,4 +1,4 @@
-## ExoPlayer & Live Chat, langkah - langkah untuk membuat aplikasi exoplayer :
+## angkah - langkah untuk membuat aplikasi exoplayer & live chat :
 ```markdown
 1. Create new Project di Android studio
 2. Add dependencies and module / library exoplayer and firebase
