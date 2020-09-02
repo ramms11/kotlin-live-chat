@@ -45,3 +45,12 @@ repositories {
     jcenter()
 }
 ```
+
+### 4. Turn on Java 8 support
+Jika belum diaktifkan, Anda perlu mengaktifkan Java 8 support di file app > build.gradle yang bergantung pada ExoPlayer, dengan menambahkan yang berikut ini ke bagian android:
+
+```markdown
+compileOptions {
+  targetCompatibility JavaVersion.VERSION_1_8
+}
+```
