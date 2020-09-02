@@ -62,10 +62,8 @@ Anda dapat membuat instance ExoPlayer menggunakan SimpleExoPlayer.Builder atau E
 SimpleExoPlayer player = new SimpleExoPlayer.Builder(context).build();
 
 contoh pada, PlayerActivity.java :
-
-// Creating the player
-            player = new SimpleExoPlayer.Builder(/* context= */ this, renderersFactory)
-                    .setTrackSelector(trackSelector)
-                    .build();
+player = new SimpleExoPlayer.Builder(/* context= */ this, renderersFactory)
+        .setTrackSelector(trackSelector)
+        .build();
 ```
 
