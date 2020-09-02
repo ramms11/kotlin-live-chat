@@ -46,7 +46,7 @@ repositories {
 }
 ```
 
-### 4. Turn on Java 8 support
+### 4. Mengaktifkan Java 8 support
 Jika belum diaktifkan, Anda perlu mengaktifkan Java 8 support di file app > build.gradle yang bergantung pada ExoPlayer, dengan menambahkan yang berikut ini ke bagian android:
 
 ```markdown
@@ -54,3 +54,18 @@ compileOptions {
   targetCompatibility JavaVersion.VERSION_1_8
 }
 ```
+
+### 5. Membuat player
+Anda dapat membuat instance ExoPlayer menggunakan SimpleExoPlayer.Builder atau ExoPlayer.Builder. Builder menyediakan berbagai opsi penyesuaian untuk membuat instance ExoPlayer. Untuk sebagian besar kasus penggunaan, SimpleExoPlayer.Builder harus digunakan. Builder ini mengembalikan SimpleExoPlayer, yang memperluas ExoPlayer untuk menambahkan fungsi yang ada didalamnya. Kode di bawah ini adalah contoh pembuatan SimpleExoPlayer.
+
+```markdown
+SimpleExoPlayer player = new SimpleExoPlayer.Builder(context).build();
+
+contoh pada, PlayerActivity.java :
+
+// Creating the player
+            player = new SimpleExoPlayer.Builder(/* context= */ this, renderersFactory)
+                    .setTrackSelector(trackSelector)
+                    .build();
+```
+
