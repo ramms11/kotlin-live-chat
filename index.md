@@ -35,4 +35,3 @@ implementation 'com.google.firebase:firebase-core:17.5.0'
 implementation 'com.google.firebase:firebase-database:19.4.0'
 ```
 
-
