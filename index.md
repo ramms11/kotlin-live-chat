@@ -35,7 +35,7 @@ implementation 'com.google.firebase:firebase-core:17.5.0'
 implementation 'com.google.firebase:firebase-database:19.4.0'
 ```
 
-### 3. Adding ExoPlayer as a dependency
+### 3. Menambahkan ExoPlayer dependency
 #### Add repositories
 Langkah pertama untuk memulai adalah memastikan Anda memiliki repositori Google dan JCenter yang disertakan dalam file build.gradle di root proyek Anda.
 
