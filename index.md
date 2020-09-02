@@ -13,7 +13,6 @@ Memulai dengan proyek studio android baru dengan memilih Empty Activity.
 Beri nama proyek dan paket dan pilih bahasa Kotlin.
 SDK Minimum sebagai API 19: Kitkat dan selesai
 
-```markdown
 ### 2. Memnambahkan project dependencies / library
 
 pada, app > gradle.build(Module: app)
